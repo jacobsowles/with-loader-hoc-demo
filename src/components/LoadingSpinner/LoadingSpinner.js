@@ -7,7 +7,7 @@ import "./LoadingSpinner.css";
 const LoadingSpinner = () => {
   return (
     <FontAwesomeIcon
-      className={"loading-spinner"}
+      className="loading-spinner"
       icon={faSpinner}
       size="4x"
       spin

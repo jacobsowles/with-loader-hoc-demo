@@ -16,6 +16,7 @@ class App extends PureComponent {
   }
 
   componentDidMount() {
+    // simulate an async call
     setTimeout(() => {
       this.setState({ isLoading: false });
     }, 3000);
